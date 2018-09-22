@@ -13,6 +13,7 @@ Classification of Malignancy of Lung Nodules
 3. Lung Nodules Segmentation and Feature Extraction
 
 	3.1 Lung Nodules Segmentation: Applied 3-dimensional CNN model to locate regions of interest (roi) within the lung based on the location information given in LIDC dataset. The input of this process is computed tomography (CT) images for each patient. The output of this process is roi - a cube (	L = 56mm) containing lung nodule in it.
+	
 	3.2  Feature Extraction: Extracted lung nodule features based on the contour information given by LIDC dataset including nodule location, hu value, longest radius, cross sectional area, etc.
 
 4. Classification of Malignancy of Lung Nodules
